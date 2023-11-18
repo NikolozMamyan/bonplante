@@ -1,0 +1,204 @@
+*{
+    font-size: 14px;
+    margin: 0;
+  
+}
+a{
+    text-decoration: none;
+}
+.navbar-brand img {
+    width: 150px;
+    height: auto;
+}
+
+
+
+.banner {
+    background: url('https://picsum.photos/2000/300') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.banner p {
+    font-size: 1.5em;
+}
+
+.row__max{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+h1 {
+    color: #28a745; /* Green color */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 220px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: all 0.3s ease 0s; /* Improved transition */
+}
+
+.card:hover {
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); /* Shadow effect on hover */
+    transform: translateY(-7px); /* Move the card up a bit */
+}
+
+.card-img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-title {
+    margin-bottom: 10px;
+    font-size: 1.25em;
+    color: #28a745; /* Green color */
+}
+
+.card-text {
+    color: #6c757d; /* Dark gray color */
+   
+}
+
+
+
+
+.card-btn {
+    background-color: #28a745; 
+    color: #fff;
+    border: none;
+    padding: 5px 10px; /* Reduced padding */
+    border-radius: 50px; 
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease 0s; 
+    font-weight: 600; 
+    letter-spacing: 1px; 
+    float: right; /* Position the button to the right */
+}
+
+.card-btn:hover {
+    background-color: #218838; 
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); 
+    color: #fff;
+    transform: translateY(-7px); 
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+}
+
+footer h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer .form-control {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #007bff;
+}
+
+footer .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+footer .footer-bottom {
+    border-top: 1px solid #454d55;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+
+
+@media (max-width: 858px) {
+    .card{
+        width: 300px;
+    }
+  }
+
+  @media (max-width: 618px) {
+    .card{
+        width: 350px;
+    }
+
+  }
+  @media (max-width: 768px) {
+    .banner {
+        height: 350px;
+    }
+    .banner h1 {
+        font-size: 2em;
+    }
+    .banner p {
+        font-size: 1em;
+    }
+}
+
+/* Pour les petits écrans */
+@media (max-width: 480px) {
+    .banner {
+        height: 250px;
+    }
+    .banner h1 {
+        font-size: 1.5em;
+    }
+    .banner p {
+        font-size: 0.875em;
+    }
+}

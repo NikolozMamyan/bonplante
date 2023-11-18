@@ -1,0 +1,123 @@
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-family: 'Bentham', serif;
+    font-size: 34px;
+    color: #474747;
+}
+
+h2 {
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    letter-spacing: 0.2em;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    color: #8d8d8d;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.navbar-brand img {
+    width: 120px;
+    height: auto;
+    
+}
+
+
+.product-price-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-price-btn p {
+    margin: 0;
+    font-family: 'Trocchi', serif;
+    font-size: 28px;
+    font-weight: lighter;
+    color: #474747;
+}
+
+.product-price-btn span {
+    font-family: 'Suranna', serif;
+    font-size: 34px;
+}
+
+.product-price-btn button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #ffffff;
+    background-color: #28a745; /* Green color */
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.product-price-btn button:hover {
+    background-color: #218838; /* Darker green color */
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 40px 0;
+}
+
+footer h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer .form-control {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #007bff;
+}
+
+footer .btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+footer .footer-bottom {
+    border-top: 1px solid #454d55;
+    padding-top: 20px;
+    font-size: 14px;
+}

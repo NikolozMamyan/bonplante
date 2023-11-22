@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-family: 'Bentham', serif;
+    
     font-size: 34px;
     color: #474747;
 }
@@ -18,14 +18,12 @@ h2 {
 }
 
 p {
-    font-family: 'Playfair Display', serif;
     color: #8d8d8d;
-    line-height: 1.7em;
     font-size: 15px;
     font-weight: lighter;
 }
 .navbar-brand img {
-    width: 120px;
+    width: 150px;
     height: auto;
     
 }
